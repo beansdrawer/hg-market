@@ -1,0 +1,83 @@
+@font-face{
+  src: url(../babo_ondal.ttf);
+  font-family: babo;
+}
+*{
+  font-family: babo;
+}
+html, body{
+  margin: 0; padding: 0;
+}
+#container{
+  width: 100%;
+}
+header{
+  height: 60px;
+  background-color: #ff0000;
+  display: flex;
+  justify-content: center;
+}
+header > h2 {
+  color: yellow;  
+  border: 1px solid #ffffff;
+  padding: 5px;
+  align-self: center;
+}
+#menus{
+  width:100%;
+}
+#menus > div {
+  width: 95%; margin: 5px auto; padding: 10px;
+  height: 240px; border: 1px solid #cccccc;
+  box-sizing: border-box;
+}
+#menu1{
+  background-image: url(../images/chicken.png);
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+#menu2{
+  background-image: url(../images/pizza.png);
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+#menu3{
+  background-image: url(../images/burger.png);
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+#menu4{
+  background-image: url(../images/salad.png);
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+#menu5{
+  background-image: url(../images/noodle.png);
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+#menu6{
+  background-image: url(../images/foot.png);
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+footer{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+footer > ul{
+  padding: 0; margin: 10px 0 0 0;
+}
+footer > ul > li{
+  display: inline-block;
+}

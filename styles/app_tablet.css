@@ -1,0 +1,11 @@
+@media screen and (min-width: 512px){
+  #menus{
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  #menus > div {
+    width: 48%; padding: 10px;
+    height: 280px; border: 1px solid #cccccc;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,23 @@
+@media screen and (min-width: 1024px){
+  header{
+    height: 80px;
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+  }
+  #menus{
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  #menus > div {
+    width: 32%; padding: 10px;
+    height: 320px; border: 1px solid #cccccc;
+    box-sizing: border-box;
+  }
+  footer{
+    height: 60px;
+  }
+  footer > ul{
+    margin: 20px 0 0 0;
+  }
+}

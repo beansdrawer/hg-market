@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>플렉스 컨테이너</title>
+  <style>
+
+    #container{
+      display: flex; 
+      width: 1000px;
+
+      flex-flow: row-reverse wrap-reverse;
+
+
+    }
+
+    #container > div {
+      width: 200px; height: 200px;
+      border: 1px solid teal;
+      background-color: tomato;
+    }
+
+    #box1{
+      flex: 30px;
+    }
+    #box2{
+      flex: 40px;
+    }
+    #box3{
+      flex: 100px;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="box1">1</div>
+    <div id="box2">2</div>
+    <div id="box3">3</div>
+  </div>
+</body>
+</html>
